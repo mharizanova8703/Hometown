@@ -1,3 +1,23 @@
+#heading h1 {
+  color: #a5beb5;
+}
+#heading p {
+  color: #f69f1a;
+}
+#heading hr {
+  width: 50%;
+  color: #f69f1a;
+  border-top: 3px solid #f69f1a;
+}
+#heading .banner {
+  background-image: url(/images/burgas.jpg);
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  width: 100%;
+}
 
+#castle {
+  background-color: #eee;
+}
 
 /*# sourceMappingURL=app.css.map */
