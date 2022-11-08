@@ -1,12 +1,15 @@
+html {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 5rem;
+}
+
+
 #heading {
-    h1 {
-        color: #a5beb5;
+    // h1 {
+    //     color: #a5beb5;
 
-    }
-
-    p {
-        color: $orange;
-    }
+    // }
 
     hr {
         width: 50%;
@@ -21,4 +24,5 @@
         width: 100%;
 
     }
+
 }

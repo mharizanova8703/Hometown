@@ -1,2 +1,27 @@
 $orange:#f69f1a;
 $bg-grey:#eee;
+$font-dark:#000000;
+
+$box-shadow: 10px 5px 5px grey;
+$dark-grey: #626061;
+
+
+.bg-grey {
+    background-color: $bg-grey;
+}
+
+.orange {
+    color: $orange;
+}
+
+.font-dark {
+    cursor: $font-dark;
+}
+
+.box-shadow {
+    box-shadow: $box-shadow;
+}
+
+.bg-footer {
+    background-color: $dark-grey;
+}

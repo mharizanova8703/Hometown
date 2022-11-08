@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'Gotham-Ultra';
+    src: url('/public/fonts/Gotham-Ultra/Gotham-Ultra.eot');
+    src: url('/public/fonts/Gotham-Ultra/Gotham-Ultra.eot?#iefix') format('embedded-opentype'),
+        url('/public/fonts/Gotham-Ultra/Gotham-Ultra.woff2') format('woff2'),
+        url('/public/fonts/Gotham-Ultra/Gotham-Ultra.woff') format('woff'),
+        url('/public/fonts/Gotham-Ultra/Gotham-Ultra.ttf') format('truetype'),
+        url('/public/fonts/Gotham-Ultra/Gotham-Ultra.svg#Gotham-Ultra') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gotham-Book-Regular';
+    src: url('public/fonts/Gotham-Regular/Gotham-Book.eot');
+    src: url('public/fonts/Gotham-Regular/Gotham-Book.eot?#iefix') format('embedded-opentype'),
+        url('public/fonts/Gotham-Regular/Gotham-Book.woff2') format('woff2'),
+        url('public/fonts/Gotham-Regular/Gotham-Book.woff') format('woff'),
+        url('public/fonts/Gotham-Regular/Gotham-Book.ttf') format('truetype'),
+        url('public/fonts/Gotham-Regular/Gotham-Book.svg#Gotham-Book') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+$gotham-ultra:'Gotham-Ultra',
+sans-serif;
+$gotham-book-regular:'Gotham-Book-Regular',
+sans-serif;
+
+
+.gotham-ultra {
+    font-family: $gotham-ultra;
+}
+
+.gotham-book-regular {
+    font-family: $gotham-book-regular;
+}

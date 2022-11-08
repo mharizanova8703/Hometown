@@ -6,7 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="public/app.css">
@@ -14,58 +13,195 @@
 </head>
 
 <body>
-    <div class="container-fluid p-0">
-        <div id="heading" class="row text-center ">
+    <div class="container-fluid  bg-greyp-0">
+        <header class="header bg-footer">
+            <a href="#" class="logo navbar orange font-xl gotham-ultra"><img src="" class="logo">BURGAS</a>
+            <nav class="navbar text-secondary">
+                <div id="nav-close" class="fas fa-times"></div>
+                <a href="#">home</a>
+                <a href="#">about</a>
+                <a href="#">shop</a>
+                <a href="#">packages</a>
+                <a href="#">reviews</a>
+                <a href="#">blogs</a>
+            </nav>
+            <!-- <div class="icons">
+                <div id="menu-btn" class="fas fa-bars"></div>
+                <div id="search-btn" class="fas fa-search"></div>
+            </div> -->
+        </header>
+        <!----->
+        <div class="search-form">
+            <div id="close-search" class="fas fa-times"></div>
+            <form action="">
+                <input type="search" name="" placeholder="search here..." id="search-box">
+                <label for="search-box" class="fas fa-search"></label>
+            </form>
+        </div>
+        <div id="heading" class="row text-center mt-lg-5 ">
             <div class="col-12 py-5">
-                <h1>Burgas</h1>
-                <p>The Unforgettable Coast</p>
-                <hr class="mx-auto">
+                <!-- <h1 class="">Burgas</h1>
+                <p>The Unforgettable Coast</p> -->
+                <!-- <hr class="mx-auto"> -->
             </div>
             <!---->
             <div class="row banner">
                 <div class="col-10 pt-lg-5 mt-lg-5">
-                    <h1 class="display-1 text-white">EXPRIRIENCE<br>SOMETHING<br>UNFORGETTABLE</h1>
+                    <h1 class="display-1 text-white gotham-ultra">EXPRIRIENCE<br>SOMETHING<br>UNFORGETTABLE</h1>
                 </div>
                 <div class="col-2">
                 </div>
-                <div class="col-lg-12 mt-lg-5">
-                    <h1>Pearl of the Black Sea</h1>
-                </div>
+                <!-- <div class="col-lg-12">
+                    <h1 class="display-5  gotham-ultra">Pearl of the Black Sea</h1>
+                </div> -->
             </div>
             <!---->
+
             <div id="castle" class="row">
+
                 <div class="col-lg-6 p-lg-5">
-                    <img src="/images/castele-1.png">
+                    <img class="w-75 box-shadow " src="/images/castele-1.png">
                 </div>
                 <div class="col-lg-6 py-5 text-start">
-                    <h2 class="py-lg-5">
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil ad voluptate optio, culpa
-                        aperiam recusandae itaque repellat. Facere, optio perspiciatis maiores doloribus pariatur omnis
-                        quidem temporibus quos sunt tenetur alias.
-                    </h2>
-                    <button class="text-start">Read More</button>
+                    <h1 class="orange">Ravadinovo Castle</h1>
+                    <p class="gotham-book-regular font-xxs">
+                        Visiting Ravadinovo Castle honestly feels like you’ve stepped into a fairytale! With
+                        picturesque
+                        towers and beautiful
+                        gardens, you’d imagine it to be the setting of one of Disney’s enchanting movies. If you
+                        visit
+                        in the summer, you’ll be
+                        treated to the sight of lush ivy climbing the walls too.
+
+                        As soon as you’ll get to the castle, you’ll notice the huge gate guarded by two imposing
+                        towers.
+                        The path to the gate is
+                        decorated with floral motifs and as soon as you step inside the castle’s gardens you’ll be
+                        amazed by everything that
+                        surrounds you.
+                    </p>
+                    <button type="button" class="btn btn-outline-secondary">Read More</button>
                 </div>
             </div>
             <!---->
             <div id="" class="row">
                 <div class="col-lg-6 p-lg-5">
-                    <h2 class="py-lg-5 text-end px-5">
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil ad voluptate optio, culpa
-                        aperiam recusandae itaque repellat. Facere, optio perspiciatis maiores doloribus pariatur omnis
-                        quidem temporibus quos sunt tenetur alias.
-                    </h2>
-                    <button class="text-end ">Read More</button>
+                    <h1></h1>
+                    <p class=" text-end px-5">
+                        Over 2500 tons of sand is used every year in order to build the fantastic models. The special
+                        lighting adds to the charm
+                        of the unique sand city in the evening. The sand sculptures festival, organised by Municipality
+                        Burgas, welcome
+                        participants from around the world – Indonesia, England, Belgium, Holland, Ireland, Russia,
+                        Ukraine, Bulgaria, etc.
+
+                        Data on sand sculptures art dates as far back as Ancient Egypt. In present times it is even more
+                        popular with hundreds
+                        of competitions, organised throughout the world. Burgas is the proud host of the only sand
+                        festival of its kind on the
+                        Balkan Peninsula.</p>
+                    <button type="button" class="btn btn-outline-secondary">Read More</button>
                 </div>
                 <div class="col-lg-6 py-5">
-                    <img class="w-75" src="images/memo-disney.jpg">
-
+                    <img class="w-75 box-shadow " src="images/memo-disney.jpg">
                 </div>
             </div>
+            <div class="row px-lg-5 bg-grey py-lg-3  d-flex justify-content-center">
+                <h1 class="py-lg-5 orange">Place to visit and thinks to do!</h1>
+                <!---->
+                <div class="col-lg-3">
+                    <div class="card box-shadow " style="width: 20rem;">
+                        <img class="card-img-top" src="/images/nesebar.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Ancient City of Nessebar</h5>
+                            <p class="card-text">At the crossroads of culture, Nessebar was a starting line for many
+                                European concepts we take for granted today.
+                                Originally a Thracian settlement, it became a Greek colony ...</p>
+                            <button type="button" class="btn btn-outline-secondary">Read More</button>
+                        </div>
+                    </div>
+                </div>
+                <!---->
+                <div class="col-lg-3">
+                    <div class="card box-shadow " style="width: 20rem;">
+                        <img class="card-img-top" src="/images/sea.garden.png" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Stroll through the Sea Garden</h5>
+                            <p class="card-text">The Sea Garden is considered one of the most romantic places in Burgas.
+                                Both in summer and winter, the Sea Garden
+                                enchants everyone with its colorful landscape. It is a place for rest and relaxation,
+                                away from the noise of the city
+                                streets.</p>
+                            <button type="button" class="btn btn-outline-secondary">Read More</button>
+                        </div>
+                    </div>
+                </div>
+                <!---->
+                <div class="col-lg-3">
+                    <div class="card box-shadow " style="width: 20rem;">
+                        <img class="card-img-top" src="/images/lake-atanasovo.png" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Pink Lake Atanasovo</h5>
+                            <p class="card-text">Imagine a pink lake that you can plunge into, cover yourself in
+                                healing
+                                mud, and then wash off in the Black Sea after.
+                                It's real, and it's in Burgas!</p>
+                            <button type="button" class="btn btn-outline-secondary">Read More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!---->
+
+            <div class="row px-lg-5 pb-5 pt-5 d-flex justify-content-center ">
+                <div class="col-lg-3">
+                    <div class="card box-shadow " style="width: 20rem;">
+                        <img class="card-img-top" src="/images/anastasia-islang.png" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Take a boat to St Anastasia Island</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the
+                                bulk of the card's
+                                content.</p>
+                            <button type="button" class="btn btn-outline-secondary">Read More</button>
+                        </div>
+                    </div>
+                </div>
+                <!---->
+                <div class="col-lg-3">
+                    <div class="card box-shadow " style="width: 20rem;">
+                        <img class="card-img-top" src="/images/poda-bird.png" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Go bird watching at Poda</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the
+                                bulk of the card's
+                                content.</p>
+                            <button type="button" class="btn btn-outline-secondary">Read More</button>
+                        </div>
+                    </div>
+                </div>
+                <!---->
+                <div class="col-lg-3">
+                    <div class="card box-shadow " style="width: 20rem;">
+                        <img class="card-img-top" src="/images/tarator.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Try local food</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the
+                                bulk of the card's
+                                content.</p>
+                            <button type="button" class="btn btn-outline-secondary">Read More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <footer class="bg-footer py-5">
+
+            </footer>
         </div>
-    </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous">
-        </script>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous">
+            </script>
+        <script src="js/script.js"></script>
 </body>
 
 </html>
