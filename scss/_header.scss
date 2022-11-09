@@ -7,11 +7,13 @@ btn {
     background: none;
     font-size: 1.7rem;
     padding: 1rem 3rem;
+    border-color: transparent;
 }
 
 .btn:hover {
-    background: #10221b;
-    color: #fff;
+    background: $orange;
+    color: #000000;
+    border-color: none;
 }
 
 .heading {
@@ -49,6 +51,11 @@ btn {
     text-decoration: none;
     font-weight: bolder;
 }
+
+.header.logo:hover {
+    color: #10221b;
+}
+
 
 .header .logo {}
 
